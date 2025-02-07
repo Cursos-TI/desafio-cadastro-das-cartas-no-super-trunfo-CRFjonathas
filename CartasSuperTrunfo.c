@@ -12,7 +12,7 @@ int main() {
     
     int codigo_cidade, pontos_turisticos;
     char nome[100];
-    float populacao, area, pib;
+    float populacao, area, pib, densidade, pibPerCapita;
 
    
 
@@ -35,6 +35,12 @@ int main() {
     printf("PIB a cidade: ");
     scanf("%f", &pib);
 
+
+    //AREA DE CALCULO:
+
+    densidade = (populacao * 1000000) / area;
+    pibPerCapita = pib / populacao;
+
     
     // Exibição dos Dados das Cartas:
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
@@ -50,6 +56,9 @@ int main() {
     printf("PONTOS TURISTICOS: %d\n", pontos_turisticos);
     printf("POPULAÇÃO: %.2f milhões\n", populacao);
     printf("PIB: R$ %.2f bilhões\n", pib);
+    printf("Densidade Populacional: %.2f habitantes por Km².\n", densidade);
+    printf("PIB per Capita: R$ %f\n", pibPerCapita);
+
 
     return 0;
 }
