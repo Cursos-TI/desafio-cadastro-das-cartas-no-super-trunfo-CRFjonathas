@@ -49,7 +49,7 @@ int main() {
     printf("ÁREA: %.2f km²\n", area);
     printf("PONTOS TURISTICOS: %d\n", pontos_turisticos);
     printf("POPULAÇÃO: %.2f milhões\n", populacao);
-    printf("PIB: R$ %.2f milhões\n", pib);
+    printf("PIB: R$ %.2f bilhões\n", pib);
 
     return 0;
 }
