@@ -6,7 +6,7 @@
 // Siga os comentários para implementar cada parte do desafio.
 //Teste Jonathas Nicacio Silva
 
-int main() {
+int main(){
 
     printf("REGRAS:\n");
     printf(" \n");
@@ -14,7 +14,7 @@ int main() {
     printf("- Cada estado terá 4 cidades (numerados de 1 a 4).\n");
     printf("- A combinação de letras e números formarão o código da carta.\n ");
     printf(" \n");
-    printf("EXEMPLO: A01; A02; B01; B02...");
+    printf("EXEMPLO: A01; A02; B01; B02...\n");
     printf(" \n");
 
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
