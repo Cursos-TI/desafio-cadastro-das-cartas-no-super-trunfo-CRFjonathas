@@ -62,7 +62,7 @@ int main(){
     printf(" \n");
     printf("\nEstado (A a H): ");
     scanf(" %c", &estado_2);
-    printf("Código da carta (ex: B02):");
+    printf("Código da carta (ex: B02): ");
     scanf("%s", codigo_2);
 
     printf("Nome da cidade: ");
@@ -122,13 +122,13 @@ int main(){
     // comparação das cartas:
 
     printf("\nCOMPARAÇÃO DE CARTAS:\n");
-    printf("população: Carta %d venceu (%d)\n", (populacao_1 > populacao_2) ? 1 : 2 (populacao_1 > populacao_2) ? 1 : 0);
-    printf("Área: Carta %d venceu (%d)\n", (area_1 > area_2) ? 1 : 2 (area_1 > area_2) ? 1 : 0);
-    printf("PIB: Carta %d venceu (%d)\n", (pib_1 > pib_2) ? 1 : 2 (pib_1 > pib_2) ? 1 : 0);
-    printf("Pontos Turisticos: Carta %d venceu (%d)\n", (pontos_turisticos_1 > pontos_turisticos_2) ? 1 : 2 (pontos_turisticos_1 > pontos_turisticos_2));
-    printf("Densidade Populacional: Carta %d venceu (%d)\n", (densidade_pop_1 < densidade_pop_2) ? 1 : 2 (densidade_pop_1 < densidade_pop_2);
-    printf("PIB per Capita: Carta %d venceu (%d)\n", (pib_per_capita_1 > pontos_turisticos_2) ? 1 : 2 (pib_per_capita_1 > pib_per_capita_2));
-    printf("Super Poder: Carta %d venceu (%d)\n", (super_poder_1 < super_poder_2) ? 1 : 2 (super_poder_1 > super_poder_2));
+    printf("população: Carta %d venceu (%d)\n", (populacao_1 > populacao_2) ? 1 : 2, (populacao_1 > populacao_2) ? 1 : 0);
+    printf("Área: Carta %d venceu (%d)\n", (area_1 > area_2) ? 1 : 2, (area_1 > area_2) ? 1 : 0);
+    printf("PIB: Carta %d venceu (%d)\n", (pib_1 > pib_2) ? 1 : 2, (pib_1 > pib_2) ? 1 : 0);
+    printf("Pontos Turisticos: Carta %d venceu (%d)\n", (pontos_turisticos_1 > pontos_turisticos_2) ? 1 : 2, (pontos_turisticos_1 > pontos_turisticos_2));
+    printf("Densidade Populacional: Carta %d venceu (%d)\n", (densidade_pop_1 < densidade_pop_2) ? 1 : 2, (densidade_pop_1 < densidade_pop_2));
+    printf("PIB per Capita: Carta %d venceu (%d)\n", (pib_per_capita_1 > pontos_turisticos_2) ? 1 : 2, (pib_per_capita_1 > pib_per_capita_2));
+    printf("Super Poder: Carta %d venceu (%d)\n", (super_poder_1 < super_poder_2) ? 1 : 2, (super_poder_1 > super_poder_2));
 
     return 0;
 }
